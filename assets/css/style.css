@@ -279,6 +279,18 @@ footer {
 
     hr {
         display: none;
+    }  
+}
+
+/* FOR MEDIUM SCREEN SIZE FROM 950PX AND DOWN*/
+
+@media screen and (max-width: 1200px){
+    #menu {
+        float: left;
+        clear: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+
     }
-    
 }
