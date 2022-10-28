@@ -216,6 +216,8 @@ hr{
     color: #fafafa;
 }
 
+/*FOOTER*/
+
 footer {
     height: 150px;
 }
@@ -232,4 +234,18 @@ footer {
     margin: 1%;
     padding: 5%;
     color:#3a3a3a; 
+}
+
+/* PHOTOS IN GALLERY SECTION */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos > img {
+    width: 100%;
+    
 }
